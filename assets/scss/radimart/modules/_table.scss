@@ -1,0 +1,24 @@
+.table {
+    text-align: center;
+    vertical-align: middle;
+    color: #6e6b7b;
+
+    thead {
+        tr {
+            th {
+                font-size: 16px;
+                font-weight: 500;
+            }
+        }
+    }
+
+    tbody {
+        border-top: transparent !important;
+        tr {
+            td {
+                font-size: 14px;
+                font-weight: normal;
+            }
+        }
+    }
+}

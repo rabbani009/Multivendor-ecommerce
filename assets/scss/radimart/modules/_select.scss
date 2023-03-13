@@ -1,0 +1,65 @@
+.react-select__control {
+  .react-select__indicators {
+    .react-select__indicator-separator {
+      display: none;
+    }
+  }
+}
+
+// React-select
+.select__control {
+  // Indicator separator
+  .select__indicator-separator {
+    &.css-1okebmr-indicatorSeparator {
+      display: none;
+    }
+  }
+
+  // Remove box shadow in border
+  &.select__control--is-focused {
+    &.select__control--menu-is-open {
+      &.css-1pahdxg-control {
+        box-shadow: none;
+      }
+    }
+    &.css-1pahdxg-control {
+      box-shadow: none;
+
+      &:hover {
+        color: #212529;
+        background-color: #fff;
+        border-color: #86b7fe;
+        outline: 0;
+        box-shadow: none;
+      }
+    }
+  }
+
+  // Value style
+  .select__single-value {
+    &.css-qc6sy-singleValue {
+      font-weight: 500;
+      font-size: 13px;
+      line-height: 15px;
+      color: #000;
+    }
+  }
+
+  // Input padding
+
+  .select__value-container {
+    padding: 8px 20px;
+  }
+
+  &.css-1s2u09g-control {
+    border-color: #0000000d;
+    background-color: #f7f8fa;
+
+    &:hover {
+      color: #212529;
+      background-color: #fff;
+      border-color: #86b7fe;
+      outline: 0;
+    }
+  }
+}

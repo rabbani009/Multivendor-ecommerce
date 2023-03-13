@@ -1,0 +1,44 @@
+@import "../../variables";
+
+.nav {
+  &.nav-tabs {
+    .nav-item {
+      .nav-link {
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: normal;
+        color: #333e48;
+        border: 0;
+
+        &.active {
+          color: $graphite;
+          background: transparent;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}
+
+.tab-content {
+  padding: 16px;
+
+  .review-wrapper {
+    .review-body {
+      .rating-histogram {
+        .rating-bar {
+          .star-rating {
+            svg {
+              font-size: 14px;
+              color: #fed700;
+            }
+          }
+          .rating-percentage-bar {
+            height: 10px;
+            background: #f3f3f3;
+          }
+        }
+      }
+    }
+  }
+}

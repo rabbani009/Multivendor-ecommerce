@@ -1,0 +1,141 @@
+@import "../../variables";
+
+.help-center-page {
+  &.page {
+    .search-section {
+      .search-box {
+        //display: none;
+        .search-form {
+          .input-group {
+            &.custom-input-group {
+              .input-group-append {
+                .btn {
+                  border-radius: 0 6px 6px 0;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .features-section {
+      .card {
+        border: none;
+
+        .card-body {
+          .stretched-link {
+
+            &:hover {
+              color: #000;
+            }
+          }
+
+          .card-text {
+            line-height: 22px;
+          }
+        }
+      }
+    }
+    //.search-section {
+    //  background: url("../../../../public/images/bg/search-bg.png") no-repeat center center;
+    //  background-size: cover;
+    //
+    //  .search-box {
+    //  }
+    //}
+  }
+}
+
+.help-page {
+  .faq-section {
+    .accordion {
+
+      .accordion-item {
+        //background: rgba(10, 66, 117, 0.9);
+
+        .accordion-header {
+          .accordion-button {
+            //background: $brand-primary;
+
+            //background: $brand-primary;
+            //color: $white;
+            //font-size: 14px;
+            //line-height: normal;
+            //font-weight: 500;
+
+            &:not(.collapsed) {
+              //background: $catalina-blue;
+              //color: $white;
+            }
+            &.collapsed {}
+            &:after {
+              //display: none;
+            }
+          }
+        }
+
+        .accordion-collapse {
+          //background: $brand-primary;
+
+          &.collapse {}
+
+          .accordion-body {
+            //display: none;
+            //background: rgba(10, 66, 117, 0.9);
+            //color: $white;
+            //background: $dark;
+            //color: $white;
+            //transition: 0.3s ease;
+            //font-size: 14px;
+            //line-height: normal;
+            //font-weight: normal;
+
+            &:hover {
+              background: $brand-primary;
+            }
+
+            &.active {
+              background: $brand-primary;
+            }
+          }
+        }
+      }
+    }
+
+    .faq-content-wrapper {
+      //display: none;
+      min-height: 432px;
+
+      .breadcrumb {
+        //display: none;
+      }
+
+      .question-wrapper {
+        //display: none;
+        .list-group {
+          &.list-group-flush {
+            //display: none;
+            .list-group-item {
+              border: none;
+
+              a {
+                font-size: 14px;
+                line-height: 18px;
+                font-weight: 500;
+                transition: 0.3s ease;
+                color: $graphite;
+
+
+
+                &:hover {
+                  cursor: pointer;
+                  color: $brand-primary;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

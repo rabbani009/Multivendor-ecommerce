@@ -1,0 +1,26 @@
+@import "../../variables";
+
+.cart-summery-wrapper {
+  background: $white;
+  box-shadow: 0 0 6px rgb(138 138 138 / 10%);
+
+  .cart-summery-title {
+    h6 {
+      font-size: 15px;
+      font-weight: normal;
+      line-height: 22px;
+      color: #545454;
+    }
+  }
+
+  .cart-summery-item {
+    font-size: 14px;
+    color: #545454;
+    font-weight: bold;
+
+    small {
+      font-weight: normal;
+      font-size: 12px;
+    }
+  }
+}

@@ -1,0 +1,64 @@
+@import "../../../variables";
+
+.html-content-wrapper {
+  //display: none;
+  h2 {
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 32px;
+    color: $dark-hard;
+  }
+
+  h3 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    color: $dark-hard;
+  }
+
+  h3 {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+    color: $dark-hard;
+  }
+
+  h4 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color: $dark-hard;
+  }
+
+  p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: $dark-hard;
+  }
+
+  span {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    color: $dark-hard;
+  }
+
+  small {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 22px;
+    color: $dark-hard;
+  }
+
+  ul {
+    li {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      color: $dark-hard;
+    }
+  }
+
+
+}

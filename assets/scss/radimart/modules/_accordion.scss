@@ -1,0 +1,59 @@
+@import "../../variables";
+
+.accordion {
+
+  .accordion-item {
+    //background: rgba(10, 66, 117, 0.9);
+    border: none;
+
+    .accordion-header {
+      .accordion-button {
+        //background: $brand-primary;
+        //color: $white;
+        font-size: 14px;
+        line-height: normal;
+        font-weight: 500;
+
+        &:not(.collapsed) {
+          //background: $catalina-blue;
+          //color: $white;
+        }
+        &.collapsed {}
+        &:after {
+          //display: none;
+        }
+      }
+    }
+
+    .accordion-collapse {
+      &.collapse {}
+
+      .accordion-body {
+        //display: none;
+        padding: 14px;
+        //background: rgba(10, 66, 117, 0.9);
+        //color: $white;
+        font-size: 14px;
+        line-height: normal;
+        font-weight: normal;
+        background: $dark;
+        color: $white;
+        transition: 0.3s ease;
+
+        //&:hover {
+        //  background: $catalina-blue;
+        //  cursor: pointer;
+        //}
+
+        &:hover {
+          cursor: pointer;
+          background: $brand-primary;
+        }
+
+        &.active {
+          background: $brand-primary;
+        }
+      }
+    }
+  }
+}

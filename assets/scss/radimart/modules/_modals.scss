@@ -1,0 +1,55 @@
+// General modal
+.modal {
+  .modal-dialog {
+    &.modal-lg {
+      &.modal-dialog-centered {
+        .modal-content {
+          .modal-body {
+            //max-width: 570px;
+            width: 100%;
+            margin: 0 auto;
+            overflow: hidden;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+// Quick view modal
+.quick-view {
+  &.modal {
+    .modal-dialog {
+      &.modal-lg {
+        &.modal-dialog-centered {
+          .modal-content {
+            .modal-body {
+              max-width: 800px;
+              width: 100%;
+              margin: 0 auto;
+              overflow: hidden;
+
+              p {
+                font-size: 12px;
+              }
+
+              .cart-btn-wrapper {
+                .cart-btn-body {
+                  .cart-btn-item {
+                    .cart-btn {
+                      padding: 4px 10px;
+                    }
+                    .btn {
+                      font-size: 14px;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

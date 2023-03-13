@@ -1,0 +1,33 @@
+@import "../../variables";
+
+.address-page {
+  &.page {
+    .address-page-section {
+      &.page-section {
+        .address-content {
+          &.page-content {
+            .list-group {
+              .list-group-item {
+                .address-text-wrapper {
+                  font-size: 18px;
+                  line-height: 24px;
+                  font-weight: 500;
+                  color: $dark-md;
+                }
+                .edit-icon-wrapper {
+                  svg {
+                    font-size: 18px;
+                    fill: $brand-primary;
+                    &:hover {
+                      cursor: pointer;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

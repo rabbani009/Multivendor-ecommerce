@@ -1,0 +1,12 @@
+.alert {
+  padding: 10px 20px;
+  font-size: 14px;
+  line-height: normal;
+  font-weight: 400;
+
+  &.alert-danger {
+    background-color: rgba(231, 76, 60, 0.3);
+    color: #e74c3c;
+    border-color: #f5c6cb;
+  }
+}

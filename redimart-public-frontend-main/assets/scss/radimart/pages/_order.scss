@@ -1,0 +1,40 @@
+@import "../../variables";
+
+.order-page {
+  &.page {
+    .order-page-section {
+      &.page-section {
+        .order-content {
+          // min-height: 360px;
+
+          &.page-content {
+            .tab-content {
+              padding: 0;
+            }
+            .order-item-wrapper {
+              .item {
+                background: $white;
+                box-shadow: 0 0 6px rgb(138 138 138 / 10%);
+
+                .item-body {
+                  .order-list-card {
+                    .card-title {
+                    }
+                    .card-body {
+                      .body-item {
+                        img {
+                          width: 120px;
+                          height: 120px;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

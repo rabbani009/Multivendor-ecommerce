@@ -1,0 +1,15 @@
+@import "../../variables";
+
+.filtering-base-nav {
+  li {
+    &:hover {
+      cursor: pointer;
+    }
+
+    &.active {
+      color: $brand-primary;
+      background: transparent;
+      border-color: transparent;
+    }
+  }
+}

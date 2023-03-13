@@ -1,0 +1,38 @@
+@import "../../variables";
+
+@import "./category";
+@import "./profile";
+@import "./wishlist";
+@import "./order";
+@import "./address";
+@import "./cart";
+@import "./signup";
+@import "./login";
+@import "./shipping";
+@import "./order-details";
+@import "./forgot-password";
+@import "./reset-password";
+@import "./radimart-shop";
+@import "./radimart-shops";
+@import "./categories";
+@import "./404-page";
+@import "./help-center";
+@import "./tac";
+@import "./our-page";
+@import "./contact_us";
+@import "./my-reviews";
+@import "./add_feedback";
+@import "./editor-text";
+@import "./single-product";
+
+.page {
+  padding: 10px 0;
+
+  .page-section {
+    .page-content {
+      background: $white;
+      box-shadow: 0 0 6px rgb(138 138 138 / 10%);
+      border-radius: 4px;
+    }
+  }
+}

@@ -1,0 +1,9 @@
+@import "../../variables";
+
+.stars-icon {
+  span {
+    svg {
+      color: $warning-sm;
+    }
+  }
+}

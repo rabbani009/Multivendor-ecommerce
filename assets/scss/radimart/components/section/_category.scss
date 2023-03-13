@@ -1,0 +1,19 @@
+@import "../../../variables";
+
+.category-section {
+  .category-wrapper {
+    background-color: $white;
+
+    .category-item-wrapper {
+      @media only screen and (max-width: 575px) {
+        max-height: 310px;
+        height: 100%;
+        overflow-y: hidden;
+      }
+
+      .cat-modules {
+
+      }
+    }
+  }
+}

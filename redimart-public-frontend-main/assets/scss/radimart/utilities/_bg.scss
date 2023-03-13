@@ -1,0 +1,21 @@
+@import "../../variables";
+// Background-color
+
+.bg-warning {
+  background-color: #f57224 !important;
+}
+
+.bg-deep-milk {
+  background-color: $milk;
+}
+
+//.btn-primary {
+//  background-color: #4c5cba !important;
+//  border-color: #4c5cba;
+//}
+//
+//.btn-outline-primary {
+//  &:hover {
+//    background-color: #4c5cba !important;
+//  }
+//}

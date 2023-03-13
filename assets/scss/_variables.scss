@@ -1,0 +1,65 @@
+// Typography
+$font-family-base: "Montserrat", sans-serif;
+$font-family-secondary: "Hind Siliguri", sans-serif;
+
+// Brand Color
+$graphite: #373e39;
+$soft-red: #da1f2a;
+$brand-primary: #4c5cba;
+
+// Themes color
+$base-light: #fafafa;
+
+// Colors
+$brand-color-1: #3e5902;
+$brand-color-2: #1b2701;
+$primary: #3167eb;
+$primary-soft: #007bff;
+$white: #ffffff;
+$white-soft: #f6f6f6;
+$white-sm: #eff0f5;
+$dark: #545454;
+$dark-soft: #969696;
+$dark-md: #1c1c1c;
+$dark-md-soft: #343a40;
+$dark-hard: #111;
+$warning: #ff9017;
+$warning-sm: #faca51;
+$danger: #ff0000;
+$danger-sm: #dc3545;
+$success: #00b517;
+$wet-asphalt: #34495e;
+$catalina-blue: #0a4275;
+$dark-sm: rgba(0, 0, 0, 0.05);
+$info: #17a2b8;
+$milk: #fff8f8;
+$text-muted-lg: #202435;
+
+// Border color
+$border-mute: #e4e4e4;
+$border-wh-soft: #e0e0e0;
+
+// Shadows
+$box-shadow-lg: 0 8px 30px rgb(0 0 0 / 12%);
+
+// Gradient color
+$gradient-basic-kashmir: #777777;
+$gradient-basic-asteroid: #0f2027;
+$gradient-moonlight-asteroid: linear-gradient(
+  to right,
+  #2c5364,
+  #203a43,
+  #0f2027
+);
+$gradient-moonlight-kashmir: linear-gradient(
+  90deg,
+  rgba(76, 92, 186, 1) 0%,
+  rgba(45, 158, 219, 1) 35%,
+  rgba(101, 39, 159, 1) 100%
+);
+
+// social media color
+$fb: rgb(59, 89, 152);
+$tw: rgb(0, 172, 238);
+$yt: rgb(255, 0, 0);
+$insta: rgb(225, 48, 108);

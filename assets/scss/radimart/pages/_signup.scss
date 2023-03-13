@@ -1,0 +1,14 @@
+@import "../../variables";
+
+.signup-page {
+  &.page {
+    .signup-page-section {
+      &.page-section {
+        .signup-wrapper {
+          background: $white;
+          box-shadow: 0 0 6px rgb(138 138 138 / 10%);
+        }
+      }
+    }
+  }
+}

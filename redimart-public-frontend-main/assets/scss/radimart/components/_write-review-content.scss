@@ -1,0 +1,132 @@
+@import "../../variables";
+
+.write-review-content {
+  &.page-content {
+    //display: none;
+
+    form {
+      .product-review {
+        .product-review-group-header {
+          small {
+            font-size: 14px;
+            font-weight: normal;
+            line-height: 18px;
+            color: $dark-soft
+          }
+
+          span {
+            font-size: 16px;
+            font-weight: normal;
+            line-height: 24px;
+            color: $dark-md-soft
+          }
+        }
+
+        .product-review-body {
+          .product-review-body-item {
+            .product-title {
+              .card-title-link {
+                h6 {
+                  font-size: 16px;
+                  font-weight: normal;
+                  line-height: 20px;
+                  color: $dark-md-soft
+                }
+              }
+            }
+
+            .attributes-wrapper {
+              small {
+                font-size: 12px;
+                font-weight: normal;
+                line-height: 16px;
+                color: $dark-md-soft
+              }
+            }
+
+            .stars-section {
+              span {
+                font-size: 16px;
+                font-weight: normal;
+                line-height: 24px;
+                color: $dark-md-soft
+              }
+
+              .stars-wrapper {
+                svg {
+                  font-size: 30px;
+                  cursor: pointer;
+                  //transition: 0.3s ease;
+
+                  &.orange {
+                    color: $warning-sm;
+                  }
+                  &.gray {
+                    color: $dark-soft;
+                  }
+                }
+
+                small {
+                  font-size: 12px;
+                  font-weight: normal;
+                  line-height: 16px;
+                  color: $dark-md-soft
+                }
+
+                //svg {
+                //
+                //}
+              }
+            }
+          }
+        }
+      }
+
+      .seller-review {
+        .vendor-name {
+          h6 {
+            font-size: 16px;
+            font-weight: normal;
+            line-height: 20px;
+            color: $dark-md-soft
+          }
+        }
+
+        .seller-response-rating-section {
+          span {
+            font-size: 16px;
+            font-weight: normal;
+            line-height: 24px;
+            color: $dark-md-soft
+          }
+
+          .seller-response-rating-wrapper {
+            svg {
+              font-size: 30px;
+              cursor: pointer;
+              //transition: 0.3s ease;
+
+              &.orange {
+                color: $warning-sm;
+              }
+              &.gray {
+                color: $dark-soft;
+              }
+            }
+
+            small {
+              font-size: 12px;
+              font-weight: normal;
+              line-height: 16px;
+              color: $dark-md-soft
+            }
+          }
+        }
+      }
+
+      .submit-area {
+
+      }
+    }
+  }
+}

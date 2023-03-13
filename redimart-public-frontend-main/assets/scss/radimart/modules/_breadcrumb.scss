@@ -1,0 +1,17 @@
+.breadcrumb {
+  margin-bottom: 0;
+
+  .breadcrumb-item {
+
+    a {
+      color: #1a9cb7;
+      font-size: 14px;
+      line-height: 16px;
+      text-decoration: none;
+
+      &.active {
+        color: #757575;
+      }
+    }
+  }
+}

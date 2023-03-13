@@ -1,0 +1,58 @@
+@import "../../variables";
+
+.react-datepicker-wrapper {
+  .react-datepicker__input-container {
+  }
+}
+
+.react-datepicker__tab-loop {
+  .react-datepicker__tab-loop__start {
+  }
+  .react-datepicker-popper {
+    .react-datepicker {
+      font-family: $font-family-base;
+      font-size: 12px;
+      line-height: 16px;
+      color: $dark;
+      border: none;
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+      .react-datepicker__month-container {
+        .react-datepicker__header {
+          background-color: $white;
+          border-color: #0000000d;
+
+          .react-datepicker__current-month {
+            font-size: 14px;
+            line-height: 18px;
+            font-weight: 500;
+            margin-top: 2px;
+          }
+
+          .react-datepicker__day-names {
+            //display: none;
+            .react-datepicker__day-name {
+              color: $dark;
+              font-size: 13px;
+              line-height: 24px;
+            }
+          }
+        }
+        .react-datepicker__month {
+          .react-datepicker__week {
+            .react-datepicker__day {
+              &.react-datepicker__day--009 {
+              }
+              &.react-datepicker__day--selected {
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .react-datepicker__tab-loop__end {
+  }
+}

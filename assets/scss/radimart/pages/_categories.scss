@@ -1,0 +1,14 @@
+@import "../../variables";
+
+.categories-section {
+  &.categories {
+    .categories-inner {
+      background-color: $white;
+      box-shadow: 0 0 6px hsl(0deg 0% 54% / 10%);
+
+      .categories-wrapper {
+        .categories-item-wrapper {}
+      }
+    }
+  }
+}

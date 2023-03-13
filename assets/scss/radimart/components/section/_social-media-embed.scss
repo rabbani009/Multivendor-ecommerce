@@ -1,0 +1,69 @@
+@import "../../../variables";
+
+.social-media-embed-section {
+  background: $gradient-basic-kashmir;
+  background: $gradient-moonlight-kashmir;
+
+  .social-media-embed-wrapper {
+    //background: $white;
+    .social-media-embed-item-wrapper {
+      .social-media-embed-item {
+        transition: 0.3s;
+        overflow: hidden;
+
+        &:hover {
+          box-shadow: inset 0 0 3em rgb(0 0 0 / 10%), 0 0 0 2px rgb(255 255 255),
+            0.3em 0.3em 1em rgb(0 0 0);
+        }
+        .card {
+          .fb-page {
+            span {
+              //width: 247px !important;
+              //height: 310px !important;
+              //
+              //iframe {
+              //  width: 247px !important;
+              //  height: 310px !important;
+              //}
+            }
+          }
+
+          .twitter-tweet {
+            //margin: 0 !important;
+            //width: 247px !important;
+            //height: 310px !important;
+            //
+            //iframe {
+            //  width: 247px !important;
+            //  height: 310px !important;
+            //
+            //  .css-1dbjc4n {
+            //    border: none !important;
+            //  }
+            //}
+          }
+        }
+        .social-card {
+          min-height: 270px !important;
+          height: 100%;
+          background: #f5f6f7 !important;
+
+          .fb-page {
+            span {
+              width: 100% !important;
+              height: 260px !important;
+
+              iframe {
+                height: 260px !important;
+              }
+            }
+          }
+
+          iframe {
+            height: 260px !important;
+          }
+        }
+      }
+    }
+  }
+}

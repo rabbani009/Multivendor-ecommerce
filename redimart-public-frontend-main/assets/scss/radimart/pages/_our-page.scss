@@ -1,0 +1,69 @@
+@import "../../variables";
+
+.our-story-page {
+  //display: none;
+  .features-section {
+    //.features-section-bg {
+    //  background: url("../../../../public/images/pages/features-section-bg.png") no-repeat center center;
+    //  background-size: cover;
+    //  min-height: 1080px;
+    //}
+  }
+
+  .our-story-content-section {
+    p {
+      text-align: justify;
+      font-size: 16px;
+      line-height: 28px;
+      font-weight: 400;
+      color: $graphite;
+    }
+  }
+
+  .what-we-do-section {
+    .what-we-do-content {
+      h4 {
+        font-size: 26px;
+        font-weight: 600;
+        line-height: 36px;
+        color: $graphite;
+      }
+
+      p {
+        text-align: justify;
+        font-size: 16px;
+        line-height: 28px;
+        font-weight: 400;
+        color: $graphite;
+      }
+    }
+  }
+
+  .categories-section {
+    h2 {
+      font-size: 30px;
+      font-weight: 600;
+      line-height: 40px;
+      color: $graphite;
+    }
+
+    .card {
+      height: 100%;
+
+      .card-title {
+        font-size: 20px;
+        line-height: 28px;
+        font-weight: 400;
+        color: $graphite;
+      }
+
+      .card-text {
+        text-align: justify;
+        font-size: 14px;
+        line-height: 22px;
+        font-weight: 400;
+        color: $graphite;
+      }
+    }
+  }
+}

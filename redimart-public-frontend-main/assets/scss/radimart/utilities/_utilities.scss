@@ -1,0 +1,55 @@
+@import "../../variables";
+@import "./bg";
+@import "./color";
+@import "./size";
+
+// Text color
+.text-muted-lg {
+  color: $text-muted-lg;
+}
+
+.bd-navbar {
+  background: $gradient-basic-kashmir;
+  background: $gradient-moonlight-kashmir;
+}
+
+.btn-primary {
+  background: $primary-soft;
+}
+
+.border-1 {
+  border: 1px solid $border-mute;
+}
+
+.box-shadow-lg {
+  box-shadow: $box-shadow-lg;
+}
+
+.box-shadow-sm {
+  box-shadow: rgba(0, 0, 0, 0.09) 0 3px 12px;
+}
+
+// Typography
+.text-size-xs {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.text-size-sm {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.text-size-md {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.text-size-lg {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.bg-light {
+  background: $white !important;
+}

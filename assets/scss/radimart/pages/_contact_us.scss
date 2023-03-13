@@ -1,0 +1,28 @@
+@import "../../variables";
+
+.contact-us-page {
+  .features-section {
+    &.section-bg {
+      //display: none;
+      background: linear-gradient(rgba(76, 92, 186, 1),rgba(76, 92, 186, 0.9)),url("../../../../public/images/pages/call-center.jpg") no-repeat center center fixed;
+      background-size: cover;
+    }
+
+    h1 {
+      font-size: 36px;
+      line-height: 40px;
+      font-weight: 500;
+      color: $white;
+      padding: 160px 0;
+    }
+  }
+
+  .contact-section {
+    h2 {
+      font-size: 24px;
+      line-height: 30px;
+      font-weight: 500;
+      color: $graphite;
+    }
+  }
+}

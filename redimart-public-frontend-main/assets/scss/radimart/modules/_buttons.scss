@@ -1,0 +1,30 @@
+@import "../../variables";
+
+.btn {
+  &:disabled {
+    &:hover {
+      cursor: no-drop;
+    }
+  }
+
+  &.btn-sm {
+    font-size: 12px;
+  }
+
+  &.btn-outline-warning {
+    //color: $white;
+    //border-color: $white;
+    color: $warning;
+    border-color: $warning;
+
+    &:hover {
+      color: $white;
+      background-color: $warning;
+    }
+
+    &.active {
+      color: $white;
+      border-color: $white;
+    }
+  }
+}

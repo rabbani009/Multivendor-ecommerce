@@ -1,0 +1,14 @@
+@import "../../variables";
+
+.login-page {
+  &.page {
+    .login-page-section {
+      &.page-section {
+        .login-wrapper {
+          background: $white;
+          box-shadow: 0 0 6px rgb(138 138 138 / 10%);
+        }
+      }
+    }
+  }
+}

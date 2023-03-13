@@ -1,0 +1,17 @@
+.banner-section {
+  overflow: hidden;
+
+  .swiper {
+    .swiper-wrapper {
+      .swiper-slide {
+        img {
+          //height: 410px;
+
+          //@media only screen and (max-width: 1199px) {
+          //  height: auto;
+          //}
+        }
+      }
+    }
+  }
+}

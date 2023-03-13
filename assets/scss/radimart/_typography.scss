@@ -1,0 +1,27 @@
+@import "../variables";
+
+body {
+  font-family: $font-family-base;
+  font-weight: normal;
+  background-color: $white-sm;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  line-height: 22px;
+  color: $dark-md;
+}
+
+h1, h2 {
+  line-height: 32px;
+}
+
+// font-weight
+.text-500 {
+  font-weight: 500;
+}

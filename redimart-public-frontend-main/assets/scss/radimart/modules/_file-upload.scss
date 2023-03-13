@@ -1,0 +1,13 @@
+@import "../../variables";
+
+.dropzone {
+  height: 41px;
+  border-radius: 4px;
+  background: #f7f8fa;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+  color: #000;
+  padding: 12px 20px;
+  border: 1px dashed $primary;
+}

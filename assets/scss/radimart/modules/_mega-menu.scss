@@ -1,0 +1,128 @@
+@import "../../variables";
+
+ul {
+  &.mega-menu-root {
+    position: relative;
+    background: $white;
+    z-index: 11;
+    height: 100%;
+    border-left: 1px solid $white;
+
+    li {
+      &.nav-item {
+        z-index: 1;
+
+        a {
+          &.nav-link {
+            max-width: 200px;
+            width: 100%;
+            padding: 2px 10px;
+            color: #666;
+            font-size: 12px;
+            //font-size: 14px;
+            font-weight: 500;
+            line-height: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            &:hover {
+              color: $info;
+              background: #eceff1;
+
+              svg {
+                visibility: visible;
+              }
+            }
+
+            svg {
+              visibility: hidden;
+            }
+          }
+        }
+
+        &:hover {
+          z-index: 11;
+
+          ul {
+            &.dropdown-root {
+              visibility: visible;
+            }
+          }
+        }
+
+        ul {
+          &.dropdown-root {
+            min-width: 930px;
+            min-height: 100vh;
+            //box-shadow: 0 0 4px 0 rgb(0 0 0 / 25%);
+            //background: $white;
+
+            .cat-img {
+              width: 100%;
+              height: auto;
+              position: absolute;
+              top: calc(50% - 500px);
+              //bottom: 0;
+              right: 0;
+              left: 0;
+              z-index: 0;
+
+              img {
+                // width: 100%;
+                font-size: 0;
+              }
+              //position: absolute;
+              //top: 0;
+              //left: 0;
+              //right: 0;
+              //bottom: 0;
+              //width: 100%;
+              //height: auto;
+            }
+          }
+          &.dropdown-root,
+          .sub-dropdown-root {
+            visibility: hidden;
+            position: absolute;
+            //width: 200px;
+            //height: 344px;
+            box-shadow: 0 0 4px 0 rgb(0 0 0 / 25%);
+            //border: 1px solid $danger-sm;
+            background: $white;
+            top: 0;
+            left: calc(100% - 0px);
+            overflow: hidden;
+            min-height: calc(100vh + 50px);
+
+            li {
+              &.nav-item {
+                // a {
+                //   &.nav-link {
+                //   }
+                // }
+
+                &:hover {
+                  ul {
+                    &.sub-dropdown-root {
+                      visibility: visible;
+                    }
+                  }
+                }
+
+                ul {
+                  &.sub-dropdown-root {
+                    left: 200px;
+                    max-width: 200px;
+                    width: 100%;
+                    height: 100%;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

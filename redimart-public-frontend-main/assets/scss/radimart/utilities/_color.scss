@@ -1,0 +1,18 @@
+@import "../../variables";
+
+.warning {
+  color: #f57224;
+}
+
+.text {
+  &-black-400 {
+    color: $dark-md;
+  }
+
+  &-blue {
+    color: $brand-color-2;
+  }
+  &-success {
+    color: #4caf50;
+  }
+}

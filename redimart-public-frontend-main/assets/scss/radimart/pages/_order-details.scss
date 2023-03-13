@@ -1,0 +1,68 @@
+@import "../../variables";
+
+.order-details-page {
+  &.page {
+    .order-details-page-section {
+      &.page-section {
+        .order-details-content {
+          .order-id-wrapper {
+            background: $white;
+            box-shadow: 0 0 6px rgb(138 138 138 / 10%);
+          }
+          //.order-card-main-wrapper {
+          //  .order-card {
+          //    &:hover {
+          //      box-shadow: none;
+          //    }
+          //
+          //    .card-body {
+          //      .card-body-item {
+          //        .step-progress-wrapper {
+          //          ul {
+          //            li {
+          //              &:last-child {
+          //                //display: none!important;
+          //              }
+          //            }
+          //          }
+          //        }
+          //      }
+          //    }
+          //  }
+          //}
+
+          .order-card {
+            &:hover {
+              box-shadow: none;
+            }
+
+            .card-body {
+              .card-body-item {
+                .step-progress-wrapper {
+                  ul {
+                    li {
+                      &:last-child {
+                        display: none!important;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+
+          .shipping-card-section {
+            .shipping-address {
+              background: $white;
+              box-shadow: 0 0 6px rgb(138 138 138 / 10%);
+            }
+            .total-summary {
+              background: $white;
+              box-shadow: 0 0 6px rgb(138 138 138 / 10%);
+            }
+          }
+        }
+      }
+    }
+  }
+}
